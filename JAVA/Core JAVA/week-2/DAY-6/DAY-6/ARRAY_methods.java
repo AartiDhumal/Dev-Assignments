@@ -31,7 +31,18 @@ class Array_meth {
         System.out.println("Binary Search of 76 is:  " + Arrays.binarySearch(Array_values1, 76));
         System.out.println();
     }
-    //Q3) Copy one array into the another arrays in-built functionality
+//Q2 Print array in Ascending and descending order,using in-built functionality.
+    void AccendingANDdecendin(){
+        //Accending order
+        Integer Array_values3 [] ={1,2,3,4,5};
+                Arrays.sort(Array_values3);
+        System.out.println("Accenting order of array : " + Arrays.toString(Array_values3));
+        //Decending Order
+
+        Arrays.sort(Array_values3, Collections.reverseOrder());
+        System.out.println("Decanting order : "+ Arrays.asList(Array_values3)) ;
+    }
+//Q3) Copy one array into the another arrays in-built functionality
     void copy_(){
         System.out.println("Array copy : "+ Arrays.toString(Arrays.copyOf(Array_values1, 5)));
         System.out.println();
@@ -45,17 +56,7 @@ class Array_meth {
     void Equals(){
         System.out.println("Equals : "+ Arrays.equals(Array_values1,Array_values2));
     }
-    //Q2 Print array in Ascending and descending order,using in-built functionality.
-    void AccendingANDdecendin(){
-        //Accenting order
-        Integer Array_values3 [] ={1,2,3,4,5};
-                Arrays.sort(Array_values3);
-        System.out.println("Accenting order of array : " + Arrays.toString(Array_values3));
-        //Decanting Order
 
-        Arrays.sort(Array_values3, Collections.reverseOrder());
-        System.out.println("Decanting order : "+ Arrays.asList(Array_values3)) ;
-    }
 
 }
 public class ARRAY_methods {
