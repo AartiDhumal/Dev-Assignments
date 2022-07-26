@@ -71,3 +71,18 @@ public class ARRAY_methods {
     }
 }
 
+/*          OUTPUT
+asList : [12, 43, 6, 76, 43, 45]
+
+sorting: [6, 12, 43, 43, 45, 76]
+
+Binary Search of 76 is:  5
+
+Array copy : [6, 12, 43, 43, 45]
+
+Array Clone[6, 12, 43, 43, 45, 76]
+Equals : false
+Accenting order of array : [1, 2, 3, 4, 5]
+Decanting order : [5, 4, 3, 2, 1]
+*/
+
