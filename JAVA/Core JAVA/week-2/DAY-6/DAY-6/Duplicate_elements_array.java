@@ -20,6 +20,7 @@ class Duplicate {
         }
     }
 
+    //add proper names to methods
     void without_duplicate() {
         System.out.println("Array without duplicate: ");
         for (int i = 0; i < Array1.length-1; i++) {
