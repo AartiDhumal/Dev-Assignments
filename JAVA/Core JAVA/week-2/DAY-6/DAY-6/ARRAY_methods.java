@@ -5,7 +5,7 @@ Q1) Check for the package, related to Array Where Array related in-built methods
 =>whenever required use the "for-each" loop to iterate.
 =>follow Naming conventions and indentation While coding.(spaces,tab
 */
-import java.sql.SQLOutput;
+//import java.sql.SQLOutput; why we required this?
 import java.util.Arrays;
 import java.util.Collections;
 
