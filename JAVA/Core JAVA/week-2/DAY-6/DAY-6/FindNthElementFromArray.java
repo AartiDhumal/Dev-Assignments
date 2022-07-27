@@ -6,6 +6,8 @@ class Array_finder{
     int Array1 [] = {1,4,6,7,9,10,8};
     int status =0;
     Scanner scanner = new Scanner(System.in);
+    
+    //compare is in-built method in strings so never ever used the same name 
     void compare(){
         System.out.println("Enter an element you want to search: ");
         int input = scanner.nextInt();
